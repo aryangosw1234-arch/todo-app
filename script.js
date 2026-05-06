@@ -94,3 +94,6 @@ if ("serviceWorker" in navigator) {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./service-worker.js");
 }
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/todo-app/service-worker.js");
+}
